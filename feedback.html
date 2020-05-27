@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+        <title> Feedback </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel= "stylesheet" href= "./styles/feedback.css" />
+	</head>
+
+	<body>
+		<!-- CABECERA -->
+		<header>
+            <h1><a href = "./index.html"> Iñaki Santos Antolín </a></h1>
+            <h2><em> Web personal </em></h2>
+        </header>
+
+		<!-- MENÚ -->
+        <nav>
+            <ul>
+                <li><a href = "./index.html"> Home </a></li>
+                <li><a href = "./cv.html"> Currículum </a></li>
+                <li><a href = "./contacto.html"> Contacto </a></li>
+				<li><a href = "./feedback.html"> Feedback </a></li>
+            </ul>
+        </nav>
+
+		<!-- FOTO FONDO -->
+        <div id = "foto">
+            <img src = "./images/fondoExplosion.jpg" alt = "Imágen de fondo." id = "imagenDeFondo"/>
+        </div>
+
+		<!-- CONTENIDO / TEXTO -->
+		<div id = "contenido">
+				<div id = "izquierda">
+				</div>
+				<section id = "principal">
+					<h4> Contacto </h4>
+					<p class = "grande"> Este apartado es para enviarme cualquier crítica constructiva hacia la página </p>
+
+					<form  id="formularicontacte" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi" >
+						<label for = "name"> Nombre * <span class = "gris"> (Obligatorio) </span></label>
+						<br/>
+						<input type="text" name="nombre" id = "name" class = "largo" required />
+						<br/>
+						<label for = "email"> Correo electrónico * <span class = "gris"> (Obligatorio) </span></label>
+						<br/>
+						<input type="email" name="correo" id = "email" class = "largo" required />
+						<br/>
+						<br/>
+						<label for = "option"> ¿Te ha gustado la página? </label> <br/>
+						<input class = "elegir" type="radio" name="option" value="si" /> Sí <br/>
+						<input class = "elegir" type="radio" name="option" value="no" /> No <br/>
+						<input class = "separacion" class = "elegir" type="radio" name="option" value="otro" autocomplete /> Prefiero no contestar
+						<br/>
+						<label for = "mensaje"> Puedes escribir aquí algo que me quieras transmitir </label>
+						<br/>
+						<textarea id = "mensaje" name = "mensaje" ></textarea>
+						<br/>
+						<label for = "apartado1"> ¿Te ha gustado algún apartado? </label> <br/>
+						<input class = "elegir" type="checkbox" name="apartado1" value="home" /> Home <br/>
+						<input class = "elegir" type="checkbox" name="apartado2" value="curriculum" /> Currículum <br/>
+						<input class = "separacion" class = "elegir" type="checkbox" name="apartado3" value="consejos" /> Consejos <br/>
+						<br/>
+
+						<input type="hidden" name="recipient" value="inakisantos1daw@gmail.com" />
+						<input id = "submitbutton" type="submit" value = "Enviar formulario" />
+					</form>
+				</section>
+		</div>
+
+		<footer>
+			<p> Página hecha por Iñaki Santos Antolín </p>
+			<img src = "./images/trebol.png" alt = "Foto de un trebol"/>
+			<p> Inspirada en la página personal de <em><strong><a id = "blanco" href = "http://luispedraza.es/">Luís Pedraza</a></strong></em> </p>
+		</footer>
+	</body>
+</html>
