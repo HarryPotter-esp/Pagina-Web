@@ -1,10 +1,11 @@
-body {
-	margin: 						0 auto;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-a:visited {
+/*a:visited {
 	color: 							black;							/* Para que los links visitados no cambien de color. */
-}
+/*}*/
 
 #blanco:visited {
 	color: 							white;							/* Para que los links visitados no cambien de color. */
@@ -12,23 +13,17 @@ a:visited {
 
 a:hover {
 		color: 						#ff8000; 						/* Naranja */
-	}
+}
 
-#blanco:hover {
-		color: 						#ff8000; 						/* Naranja, Lo repito porque sino el link de Luis Pedraza no se pone de color naranja con el hover. */
-	}
-
-a:link {
+a {
 	text-decoration: 		none;								/* Quitar el subrayado. */
-	color: 							black;
+	color: inherit;
 }
 
 #blanco:link{
 	text-decoration: 		none;								/* Quitar el subrayado. */
 	color: 							white;
 }
-
-
 
 
 
@@ -44,10 +39,11 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 			35px;
+	padding-bottom: 			35px;
 
 	font-weight: 				normal;							/* Quitarle la negrita, (cursiva introducida en html con etiquetas semánticas). */
 	font-size:					20px; 							/* Hacer más grande. */
+	border-bottom:			solid grey 0.5px;
 }
 
 
@@ -55,37 +51,43 @@ h2 {
 
 
 /* MENÚ */
-nav{
-	font-size: 					20px; 							/* Hacer más grande letra del menú */
+
+nav a {
+  text-decoration: 		none;
+  font-size: 					20px;
 }
 
-nav ul { /* Centrar ul's */
-	display: 						flex;								/* Ponerlos en fila */
-	justify-content: 		center;
+nav li{
+  display:						inline-block;
+  width:							150px;
+  height:							30px;
+  padding:						10px;
+  position:						relative;
 }
 
-nav  li { /* Centrar li's */
-	margin-right: 			30px;
-	margin-left: 				30px;
-
-	display: 						flex;								/* Ponerlos en fila */
+nav li > ul{
+  display:						none;
 }
 
-.submenu ul{
-	display: none:
-
+nav li:hover > ul{
+  display:						block;
+  position:						absolute;
+	margin-top: 				12%;
+  top:								30px;
+  left:								0px;
+	background-color:		black;
+  color:							white;
 }
 
-
-
-
-
+nav li:hover > ul li {
+	border-top: solid 0.5px grey;
+}
 
 
 /* IMÁGEN DECORATIVA */
 #imagenDeFondo{
 	width: 							100%;
-	height: 						300px;
+	height: 						250px;
 }
 
 .content {
@@ -116,6 +118,11 @@ h3 {
 
 
 /* INFORMACIÓN */
+
+h3 {
+	margin: 						30px;
+}
+
 section {
 width: 								60%;
 
@@ -148,6 +155,7 @@ p {
 
 section li {
 	font-size: 					20px;
+	margin-left: 				40px;
 }
 
 
@@ -166,6 +174,10 @@ aside {
 
 h4 {
 	font-size: 					20px;
+}
+
+aside img {
+	margin-top: 				30px;
 }
 
 .separacion {
