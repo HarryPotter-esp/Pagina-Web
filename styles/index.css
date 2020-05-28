@@ -1,0 +1,107 @@
+/* INFORMACIÓN */
+#contenido {
+	display: 						flex; 							/* Ponerlos los divs en fila */
+	margin-bottom: 			5%;									/* Espacio con el pie de página */
+}
+
+h3 {
+	font-size: 					50px;
+}
+
+#divInfo {
+	width: 							60%;
+
+	display: flex;
+	justify-content: 		flex-end;
+}
+
+#divRedes {
+	width: 							40%;
+
+	display: flex;
+	justify-content: 		flex-start;
+}
+
+h3 {
+	margin: 						6% 0% 6% 0%;
+}
+
+section {
+width: 								60%;
+
+padding: 							65px; 							/* Para que toda la información quede responsive y bonita a la vista */
+padding-top: 					0px;								/* Con el padding por defecto no hay separación arriba */
+
+border: 							solid 1px grey;
+
+position: 						relative;						/* IMPORTANTE - POSICIONAMIENTO - EFECTO INCRUSTADO. */
+bottom: 							60px;
+background-color: 		white;
+}
+
+section img {
+	border: 						solid 1px grey;
+	padding: 						5px;								/* Separar un poco el borde de la foto. */
+
+	height: 						250px;
+	width: 							250px;
+
+	float: 							left;								/* El texto está al rededor de la foto */
+	margin-right: 			20px; 							/* No hay margin left porque ya lo tienen los párrafos. */
+}
+
+p {
+	font-size: 					20px;
+	margin-top: 				25px;								/* Separación entre párrafos */
+	margin-bottom: 			25px;								/* Separación entre párrafos */
+}
+
+section li {
+	font-size: 					20px;
+	margin-left: 				40px;
+}
+
+
+
+
+
+/* REDES SOCIALES */
+aside {
+	width:							60%;
+
+	text-align: 				center; 						/* El contenido del <div> redes centrado */
+
+	margin: 						10%;
+	margin-top: 				5%;
+}
+
+h4 {
+	font-size: 					20px;
+}
+
+aside img {
+	margin-top: 				30px;
+}
+
+.separacion {
+	border-top: 				solid 1px grey;			/* Raya para separar los vídeos de youtube */
+	padding: 						20px;
+}
+
+.logoNormal{
+	height: 						50px;
+	width: 							75px;
+	margin-bottom: 			60px;								/* Separación con el siguiente iframe. */
+}
+
+.logo{
+	height: 						50px;
+	width: 							50px;
+	margin-bottom: 			60px;								/* Separación con el siguiente iframe. */
+}
+
+aside iframe {
+	margin-bottom:  		50px; 							/* Separación con el siguiente iframe. */
+	width: 							100%;
+	height: 						315px;
+}
