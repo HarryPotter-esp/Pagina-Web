@@ -96,7 +96,6 @@ nav li:hover > ul li {
 
 /* PIE */
 footer {
-	bottom:							0px;
 	height:							50px;
 	width:							100%;
 	background:					black;
@@ -107,6 +106,7 @@ footer p{
 	color: 							white;
 	display: 						inline;
 	margin: 						10px;
+	font-size: 					20px;
 }
 
 footer img{

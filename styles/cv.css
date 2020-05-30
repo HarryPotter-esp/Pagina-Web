@@ -1,8 +1,8 @@
 /* CONTENIDO / TEXTO */
 #contenido {
-	display: 						flex; 							/* Ponerlos los divs en fila */
+	display: 						flex; 						/* Ponerlos los divs en fila */
 	justify-content: 		center;
-	margin-bottom: 			5%;									/* Espacio con el pie de página */
+	margin-bottom: 			5%;								/* Espacio con el pie de página */
 }
 
 #principal {
@@ -13,59 +13,56 @@
 #cv {
 	width: 							65%;
 	background-color:		white;
-	border: 						solid 1px;
-	float: 							left;				/* IMPORTANTE - POSICIONAMIENTO */
-	position: 					relative;			/* IMPORTANTE - POSICIONAMIENTO - EFECTO INCRUSTADO. */
+	border: 						solid 1px black;
+	position: 					relative;					/* IMPORTANTE - POSICIONAMIENTO - EFECTO INCRUSTADO. */
 	bottom: 						60px;
 }
 
 #cv #principal {
 	width: 							35%;
-	height: 						905px;
-	background-color: 	#85c4f0; /* Azul cielo */
+	background-color: 	#85c4f0; 					/* Azul cielo */
 	float: 							left;
 	text-align: 				center;
 	padding: 						3%;
+	border-right: 			solid 1px black;
 }
 
 #infoContacto p {
-	margin: 						0 auto; /* Agrupar información del mismo tipo (visual). */
+	margin: 						0 auto; 					/* Agrupar información del mismo tipo (visual). */
 }
 
 #infoContacto {
-	margin-bottom: 			50%;	/* Separación entre información. */
+	margin-bottom: 			50%;							/* Separación entre información. */
 }
 
 table {
 	text-align: 				center;
 }
 td {
-	padding: 						30px; 	/* Visual */
+	padding: 						30px; 						/* Visual */
 }
 
 #cv #secundario {
-	width: 							53%;
-	float: 							right;
+	width: 							52%;
+	float: 							right;						/* Posicionamiento */
 	text-align: 				justify;
 	padding: 						3%;
 }
 
 #cv img{
-	padding: 						5px;							/* Separar un poco el borde de la foto. */
-
-	margin-right: 			20px; 							/* No hay margin left porque ya lo tienen los párrafos. */
+	padding-top: 				5%;								/* Separar un poco el borde de la foto. */
 }
 
 p {
 	font-size: 					20px;
-	margin: 						10px;							/* Sin separación entre títulos por defecto */
+	margin: 						10px;							/* Sin separación entre títulos y párrafos */
 }
 
 h3 {
-	margin: 						0 auto; 	/* Sin separación entre títulos por defecto */
+	margin: 						0 auto; 					/* Sin separación entre títulos por defecto */
 }
 
 h4 {
-	margin: 						0 auto; 	/* Sin separación entre títulos por defecto */
-	margin-bottom: 			50%;		/* Separación entre el subtítulo y la información. */
+	margin: 						0 auto; 					/* Sin separación entre títulos por defecto */
+	margin-bottom: 			50%;							/* Separación entre el subtítulo y la información. */
 }
