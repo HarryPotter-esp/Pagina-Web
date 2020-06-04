@@ -35,9 +35,12 @@
 	margin-bottom: 			50%;							/* Separación entre información. */
 }
 
-table {
-	text-align: 				center;
+article table {
+		display: flex;
+		justify-content: center;
+		text-align: left;
 }
+
 td {
 	padding: 						30px; 						/* Visual */
 }

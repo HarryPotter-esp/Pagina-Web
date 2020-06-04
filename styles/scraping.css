@@ -38,17 +38,6 @@ bottom: 							60px;
 background-color: 		white;
 }
 
-section img {
-	border: 						solid 1px grey;
-	padding: 						5px;								/* Separar un poco el borde de la foto. */
-
-	height: 						250px;
-	width: 							250px;
-
-	float: 							left;								/* El texto está al rededor de la foto */
-	margin-right: 			20px; 							
-}
-
 p {
 	font-size: 					20px;
 	margin-top: 				25px;								/* Separación entre párrafos */
@@ -80,27 +69,6 @@ aside {
 
 h4 {
 	font-size: 					20px;
-}
-
-aside img {
-	margin-top: 				30px;
-}
-
-.separacion {
-	border-top: 				solid 1px grey;			/* Raya para separar los vídeos de youtube */
-	padding: 						20px;
-}
-
-.logoNormal{
-	height: 						50px;
-	width: 							75px;
-	margin-bottom: 			60px;								/* Separación con el siguiente iframe. */
-}
-
-.logo{
-	height: 						50px;
-	width: 							50px;
-	margin-bottom: 			60px;								/* Separación con el siguiente iframe. */
 }
 
 aside iframe {

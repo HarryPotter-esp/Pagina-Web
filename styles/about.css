@@ -1,0 +1,40 @@
+/* INFORMACIÓN */
+#contenido {
+	display: 						flex; 							/* Ponerlos los divs en fila */
+	margin-bottom: 			5%;									/* Espacio con el pie de página */
+	justify-content:center;
+}
+
+h3 {
+	font-size: 					50px;
+	margin: 0;
+	padding:0;
+}
+
+
+h3 {
+	margin: 						6% 0% 6% 0%;
+}
+
+section {
+width: 								50%;
+
+padding: 							0px 65px 0px 65px; 	/* Para que toda la información quede responsive y bonita a la vista */
+
+border: 							solid 1px grey;
+
+position: 						relative;						/* IMPORTANTE - POSICIONAMIENTO - EFECTO INCRUSTADO. */
+bottom: 							60px;
+background-color: 		white;
+}
+
+
+p {
+	font-size: 					20px;
+	margin-top: 				25px;								/* Separación entre párrafos */
+	margin-bottom: 			25px;								/* Separación entre párrafos */
+}
+
+section > p.pSinMargin {
+	margin-bottom: 5px;
+}

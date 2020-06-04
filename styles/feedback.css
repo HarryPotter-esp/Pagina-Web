@@ -32,7 +32,7 @@
 			}
 
 			.elegir {
-				margin: 5px; /* Hacer más pequeña la distancia entre los checkboxes y los radio buttons. */
+				margin: 5px 0px 0px 0px; /* Hacer más pequeña la distancia entre los checkboxes y los radio buttons. */
 			}
 
 	#principal p {
